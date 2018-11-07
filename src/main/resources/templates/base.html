@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <th:block th:fragment="header">
+        <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"/>
+        <script th:src="@{/js/bootstrap.min.js}" type="text/javascript"/>
+    </th:block>
+</head>
+<body>
+
+    <div th:fragment="nav">
+        <!--insert nav code here-->
+    </div>
+
+    <div th:fragment="footer">
+        Copyright 2018
+    </div>
+
+</body>
+</html>
